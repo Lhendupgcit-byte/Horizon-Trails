@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Explore Bhutan with Horizon Trails. Discover Himalayan landscapes, living traditions, and journeys designed around you."
+    />
+
+    <title>Horizon Trails | Discover Bhutan</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- =====================================================
+         HEADER
+         ===================================================== -->
+
+    <header class="site-header">
+      <div class="container navbar">
+        <!-- LOGO -->
+
+        <a href="index.html" class="logo">
+          <div class="logo-symbol">HT</div>
+
+          <div class="logo-text">HORIZON <span>TRAILS</span></div>
+        </a>
+
+        <!-- NAVIGATION -->
+
+        <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+          <a href="index.html" class="active"> Home </a>
+
+          <a href="destinations.html"> Destinations </a>
+
+          <a href="packages.html"> Packages </a>
+
+          <a href="contact.html"> Gallery & Contact </a>
+        </nav>
+
+        <!-- HEADER ACTIONS -->
+
+        <div class="nav-actions">
+          <span class="clock" id="liveClock"> 00:00:00 </span>
+          <span class="date-display" id="liveDate"></span>
+
+          <button
+            class="theme-toggle"
+            id="themeToggle"
+            aria-label="Toggle light and dark mode"
+          >
+            <span id="themeIcon"> ☾ </span>
+          </button>
+
+          <button
+            class="mobile-menu-button"
+            id="mobileMenuButton"
+            aria-label="Open navigation menu"
+          >
+            ☰
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- =====================================================
+         MAIN CONTENT
+         ===================================================== -->
+
+    <main>
+      <!-- HERO -->
+
+      <section class="hero">
+        <video
+          class="hero-video"
+          autoplay
+          muted
+          loop
+          playsinline
+          aria-hidden="true"
+        >
+          <source src="images/Background - home.mp4" />
+        </video>
+        <div class="container">
+          <div class="hero-content">
+            <span class="hero-label"> Discover Bhutan </span>
+
+            <h1>Find Your Way to the Kingdom in the Clouds.</h1>
+
+            <p>
+              Follow Himalayan trails, visit centuries-old dzongs, and
+              experience the warmth of Bhutanese culture on a journey made for
+              you.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="destinations.html" class="btn btn-primary">
+                Explore Bhutan
+              </a>
+
+              <a href="packages.html" class="btn btn-outline">
+                View Packages
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- INTRODUCTION -->
+
+      <section class="section">
+        <div class="container intro-grid">
+          <div class="intro-image">
+            <!-- Destination image placeholder -->
+
+            <img
+              src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=85"
+              alt="Himalayan mountain landscape in Bhutan"
+            />
+          </div>
+
+          <div class="intro-content">
+            <span class="section-label"> Travel With Us </span>
+
+            <h2>Discover the spirit of Bhutan.</h2>
+
+            <p>
+              From the high Himalayas to quiet valleys, Bhutan welcomes you with
+              extraordinary scenery and a deep connection to its traditions.
+            </p>
+
+            <p>
+              Explore cliffside monasteries, lively festivals, and welcoming
+              communities. We shape each journey around your pace and interests,
+              with thoughtful guidance along the way.
+            </p>
+
+            <a href="destinations.html" class="btn btn-primary">
+              Start Exploring
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- POPULAR DESTINATIONS -->
+
+      <section class="section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-label"> Bhutan Highlights </span>
+
+            <h2 class="section-title">
+              Three unforgettable Bhutan experiences
+            </h2>
+
+            <p class="section-description">
+              Find mountain views, remarkable architecture, and the easy rhythm
+              of Bhutanese life.
+            </p>
+          </div>
+
+          <div class="destination-grid">
+            <!-- DESTINATION 1 -->
+
+            <article class="destination-card">
+              <div class="destination-image">
+                <img
+                  src="images/paro.jpg"
+                  alt="Paro Taktsang monastery overlooking the valley"
+                />
+
+                <div class="destination-overlay">
+                  <h3>Paro</h3>
+                </div>
+              </div>
+
+              <div class="destination-content">
+                <span class="destination-tag"> Culture & Hiking </span>
+
+                <p>
+                  Hike to Tiger's Nest Monastery, perched dramatically above the
+                  Paro Valley.
+                </p>
+
+                <a href="destinations.html" class="card-link"> Discover → </a>
+              </div>
+            </article>
+
+            <!-- DESTINATION 2 -->
+
+            <article class="destination-card">
+              <div class="destination-image">
+                <img src="images/punakha.jpg" alt="Punakha Valley in Bhutan" />
+
+                <div class="destination-overlay">
+                  <h3>Punakha Valley</h3>
+                </div>
+              </div>
+
+              <div class="destination-content">
+                <span class="destination-tag"> Valley & Heritage </span>
+
+                <p>
+                  See the riverside Punakha Dzong and walk through a lush valley
+                  framed by Himalayan foothills.
+                </p>
+
+                <a href="destinations.html" class="card-link"> Discover → </a>
+              </div>
+            </article>
+
+            <!-- DESTINATION 3 -->
+
+            <article class="destination-card">
+              <div class="destination-image">
+                <img
+                  src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=900&q=85"
+                  alt="Mountain town beneath the Himalayas"
+                />
+
+                <div class="destination-overlay">
+                  <h3>Thimphu</h3>
+                </div>
+              </div>
+
+              <div class="destination-content">
+                <span class="destination-tag"> Culture & City </span>
+
+                <p>
+                  Discover Bhutan's capital, where local markets, monasteries,
+                  and contemporary life meet.
+                </p>
+
+                <a href="destinations.html" class="card-link"> Discover → </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- WHY TRAVEL WITH US -->
+
+      <section class="section booking-section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-label"> Why Horizon Trails </span>
+
+            <h2 class="section-title">Travel made memorable</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="feature-icon">◈</div>
+
+              <h3>Unique Experiences</h3>
+
+              <p>
+                Find meaningful experiences, from Himalayan walks to local
+                festivals and historic dzongs.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-icon">✦</div>
+
+              <h3>Expert Planning</h3>
+
+              <p>
+                Carefully planned itineraries help you make the most of every
+                journey.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-icon">♡</div>
+
+              <h3>Local Connections</h3>
+
+              <p>
+                Meet Bhutan through its welcoming communities, regional
+                traditions, and local cuisine.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-icon">✓</div>
+
+              <h3>Travel Support</h3>
+
+              <p>
+                Our team is ready to assist before, during, and after your
+                journey.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+
+      <section class="cta">
+        <div class="container">
+          <h2>Where will you go next?</h2>
+
+          <p>Your next unforgettable journey is only a few clicks away.</p>
+
+          <a href="contact.html" class="btn btn-secondary"> Plan My Trip </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- =====================================================
+         FOOTER
+         ===================================================== -->
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-column">
+            <h3>HORIZON TRAILS</h3>
+
+            <p>
+              Thoughtful journeys through Bhutan's landscapes, living culture,
+              and welcoming communities.
+            </p>
+          </div>
+
+          <div class="footer-column">
+            <h3>Explore</h3>
+
+            <a href="index.html"> Home </a>
+
+            <a href="destinations.html"> Destinations </a>
+
+            <a href="packages.html"> Packages </a>
+
+            <a href="contact.html"> Gallery & Contact </a>
+          </div>
+
+          <div class="footer-column">
+            <h3>Travel</h3>
+
+            <p>Himalayan Treks</p>
+
+            <p>Culture & Festivals</p>
+
+            <p>Bhutan Journeys</p>
+          </div>
+
+          <div class="footer-column">
+            <h3>Contact</h3>
+
+            <p>+975 17964350</p>
+
+            <p>12260132.gcit@rub.edu.bt</p>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2026 Horizon Trails. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <elevenlabs-convai
+      agent-id="agent_5601m4avj3jveg7ramtqy8cdgj70"
+    ></elevenlabs-convai>
+    <script
+      src="https://unpkg.com/@elevenlabs/convai-widget-embed"
+      async
+      type="text/javascript"
+    ></script>
+  </body>
+</html>
