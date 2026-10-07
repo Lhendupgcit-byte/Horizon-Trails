@@ -118,7 +118,7 @@ if (travelForm) {
       ["localhost", "127.0.0.1"].includes(window.location.hostname);
     const apiUrl = isLocalDevelopment
       ? "http://localhost:5000/api/inquiry"
-      : "/api/inquiry";
+      : "https://horizon-trails.onrender.com/api/inquiry";
     const originalButtonText = submitButton?.textContent;
 
     if (submitButton) {
