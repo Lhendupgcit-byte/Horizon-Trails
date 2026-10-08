@@ -29,6 +29,7 @@ const transporter = nodemailer.createTransport({
 });
 // Booking route
 app.post("/api/inquiry", async (req, res) => {
+  console.log("POST /api/inquiry received");
   try {
     const {
       fullName,
