@@ -17,15 +17,16 @@ app.get("/", (req, res) => {
   res.send("Horizon Trails Backend is running!");
 });
 
-// Gmail transporter
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
     user: process.env.EMAIL_USER,
     pass: process.env.EMAIL_PASSWORD,
   },
+  connectionTimeout: 10000,
+  greetingTimeout: 10000,
+  socketTimeout: 10000,
 });
-
 // Booking route
 app.post("/api/inquiry", async (req, res) => {
   try {
